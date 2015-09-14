@@ -23,6 +23,12 @@ public class School {
       Person.printWeight();
       Person.printWeights(Person.Gender.Male);
       Person.printWeights(Person.Gender.Female);
+      Course eng = Course.addCourse("English", Course.Type.English, 1);
+      Course cs2 = Course.addCourse("Computer Science", Course.Type.Elective, 2);
+      Course science = Course.addCourse("Science", Course.Type.Science, 3);
+      Course pe = Course.addCourse("PE", Course.Type.PE, 4);
+      Course geom = Course.addCourse("Geometry", Course.Type.Math, 5);
+      Course.printNames();
     }
     
 }
